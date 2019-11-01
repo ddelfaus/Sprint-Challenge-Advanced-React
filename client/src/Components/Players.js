@@ -9,10 +9,11 @@ const [order, setOrder] = Toggle(true)
 console.log(props)
 
 
+const newArray = props.players
 
 const toggleMode = () => {
    if (order = false){
-      props.players.reverse();
+     newArray= props.players.reverse();
   
    }
 }
