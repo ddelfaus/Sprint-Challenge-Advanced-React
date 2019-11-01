@@ -38,7 +38,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <h1>Woman's Word Cup Player Google Search Rank</h1>
-
+      <h2>Rankings</h2>
       <Players players = {this.state.players}/>
     </div>
   );
