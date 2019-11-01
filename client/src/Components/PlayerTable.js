@@ -9,7 +9,7 @@ const PlayerTable = props => {
     
         return(
             <div>
-                {props.players.id }{props.players.name}
+               {props.players.name} Searches:{props.players.searches} Country : {props.players.country}
                 
             </div>
         )

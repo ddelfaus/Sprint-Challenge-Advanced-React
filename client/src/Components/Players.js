@@ -9,6 +9,7 @@ const [order, setOrder] = Toggle(true)
 console.log(props)
 
 
+
 const toggleMode = () => {
    if (order = false){
       props.players.reverse();
@@ -21,6 +22,9 @@ const toggleMode = () => {
             <button onClick ={setOrder} >
             {order ? `Order`: "reverse Order"}
             </button>
+
+
+            
             { props.players.map(item =>(
                 <PlayerTable key ={item.id} players ={item}/>
             ))}
